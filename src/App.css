@@ -10,3 +10,18 @@
   --second-color: #5bc0eb;
   --third-color: #ffae00;
 }
+
+.app {
+  width: 100%;
+  height: 100vh;
+}
+
+#dark {
+  background: var(--main-dark-color);
+  color: var(--main-light-color);
+}
+
+#light {
+  background: var(--main-light-color);
+  color: var(--main-dark-color);
+}
