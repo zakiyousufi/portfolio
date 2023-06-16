@@ -34,8 +34,8 @@ function App() {
             checked={theme === 'dark'}
             checkedIcon={false}
             uncheckedIcon={false}
-            height={30}
-            width={60}
+            height={25}
+            width={50}
             offColor="#ffae00"
             className="mx-2"
           />
