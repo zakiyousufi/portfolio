@@ -54,7 +54,7 @@ const projects = [
       portfolio9,
       portfolio10,
       portfolio11],
-    liveDemo: 'https://zakiyousufi.github.io/portfolio/',
+    liveDemo: 'https://zakiyousufi-portfolio.vercel.app/',
     sourceLink: 'https://github.com/zakiyousufi/portfolio',
   },
   {
