@@ -23,8 +23,40 @@ import spaceHub from '../../images/projects/spaceHub.JPG';
 import spaceHub2 from '../../images/projects/spaceHub2.JPG';
 import spaceHub3 from '../../images/projects/spaceHub3.JPG';
 import spaceHub4 from '../../images/projects/spaceHub4.JPG';
+import portfolio from '../../images/projects/portfolio.JPG';
+import portfolio1 from '../../images/projects/portfolio1.JPG';
+import portfolio2 from '../../images/projects/portfolio2.JPG';
+import portfolio3 from '../../images/projects/portfolio3.JPG';
+import portfolio4 from '../../images/projects/portfolio4.JPG';
+import portfolio5 from '../../images/projects/portfolio5.JPG';
+import portfolio6 from '../../images/projects/portfolio6.JPG';
+import portfolio7 from '../../images/projects/portfolio7.JPG';
+import portfolio8 from '../../images/projects/portfolio8.JPG';
+import portfolio9 from '../../images/projects/portfolio9.JPG';
+import portfolio10 from '../../images/projects/portfolio10.JPG';
+import portfolio11 from '../../images/projects/portfolio11.JPG';
 
 const projects = [
+  {
+    name: 'My Portfolio',
+    about: 'This is my portfolio website. It is a single page application built with React and React-bootstrsp. It is fully responsive and has a dark/light mode feature.',
+    tecknologies: ['HTML', 'CSS', 'JavaScript', 'React', 'React-bootstrap'],
+    images: [
+      portfolio,
+      portfolio1,
+      portfolio2,
+      portfolio3,
+      portfolio4,
+      portfolio5,
+      portfolio6,
+      portfolio7,
+      portfolio8,
+      portfolio9,
+      portfolio10,
+      portfolio11],
+    liveDemo: 'https://zakiyousufi.github.io/portfolio/',
+    sourceLink: 'https://github.com/zakiyousufi/portfolio',
+  },
   {
     name: 'Vesper',
     about: `Vesper is a full stack application for all cars' lovers. 
@@ -81,30 +113,6 @@ const projects = [
     liveDemo: 'https://zakiyousufi.github.io/Conference-page/index.html',
     sourceLink: 'https://github.com/zakiyousufi/Conference-page',
   },
-  // {
-  //   name: 'Book Store',
-  //   about: '...',
-  //   tecknologies: ['React', 'JavaScript', 'HTML', 'CSS'],
-  //   images: ['imge1', 'imge2', 'imge3'],
-  //   liveDemo: 'NLD',
-  //   sourceLink: 'https://github.com/zakiyousufi/Book-Store',
-  // },
-  // {
-  //   name: 'Mathmagicians',
-  //   about: '...',
-  //   tecknologies: ['React', 'JavaScript', 'HTML', 'CSS'],
-  //   images: ['imge1', 'imge2', 'imge3'],
-  //   liveDemo: 'NLD',
-  //   sourceLink: 'https://github.com/zakiyousufi/Book-Store',
-  // },
-  // {
-  //   name: 'Food Recipes App',
-  //   about: '...',
-  //   tecknologies: ['JavaScript', 'HTML', 'CSS'],
-  //   images: ['imge1', 'imge2', 'imge3'],
-  //   liveDemo: 'NLD',
-  //   sourceLink: 'https://github.com/zakiyousufi/rails_recipe_app/tree/main',
-  // },
 ];
 
 export default projects;
