@@ -1,0 +1,205 @@
+.navbar {
+  background: rgba(255, 255, 255, 0.09);
+  backdrop-filter: blur(2.7px);
+  -webkit-backdrop-filter: blur(2.7px);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.sub-nav {
+  width: 85%;
+}
+
+.home-container {
+  height: 100vh;
+  width: 100%;
+  padding: 5%;
+}
+
+.img-div {
+  width: 100%;
+}
+
+.headline {
+  margin-left: 10%;
+  font-size: 40px;
+  font-style: bold;
+}
+
+.title {
+  font-size: 1.8rem;
+}
+
+.name {
+  color: var(--third-color);
+}
+
+.about {
+  font-size: 17px;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.sub-info {
+  text-decoration: none;
+  color: var(--third-color);
+}
+
+.sub-info:hover {
+  color: var(--second-color);
+}
+
+.social-links {
+  text-decoration: none;
+  color: var(--third-color);
+  font-size: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.social-links:hover {
+  color: var(--second-color);
+}
+
+.skills-svg {
+  width: 30px;
+  height: auto;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.rec-img {
+  width: 15%;
+  height: auto;
+  position: fixed;
+  top: -70px;
+  left: 70px;
+  z-index: 8;
+}
+
+.carousel {
+  margin-top: 100px;
+  background: rgba(255, 255, 255, 0.09);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.7px);
+  -webkit-backdrop-filter: blur(2.7px);
+  overflow: none;
+}
+
+.carousel-item {
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 30px;
+}
+
+.project-img {
+  width: 100%;
+}
+
+#card {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 9;
+}
+
+.open {
+  display: block;
+}
+
+.close {
+  display: none;
+}
+
+.popup {
+  width: 100%;
+  height: 100vh;
+  background: var(--main-dark-color);
+  z-index: 9;
+  padding: 10px 20px;
+}
+
+.project-details {
+  padding: 20px 30px;
+}
+
+.card-btn {
+  padding: 10px 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 10px;
+  text-decoration: none;
+  margin-top: 30px;
+}
+
+.livedemo, .sourcelink:hover {
+  background: var(--third-color);
+  color: var(--main-dark-color);
+  border: 2px solid var(--third-color);
+  box-shadow: inset 0 0 0 0 var(--main-light-color);
+}
+
+.livedemo:hover, .sourcelink {
+  background: none;
+  border: 2px solid var(--third-color);
+  color: var(--third-color);
+}
+
+.closebtn {
+  position: fixed;
+  top: 200px;
+  right: 30px;
+  background: none;
+  color: var(--white-color);
+  padding: 3px 7px;
+  padding-bottom: 3px;
+  border: 2px solid var(--white-color);
+  border-radius: 7px;
+  z-index: 1000;
+}
+
+.closebtn:hover {
+  background: var(--white-color);
+  color: var(--main-dark-color);
+}
+
+.form {
+  background: rgba(255, 255, 255, 0.09);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.7px);
+  -webkit-backdrop-filter: blur(2.7px);
+  overflow: none;
+  padding: 20px 30px;
+  width: 70%;
+  color: var(--white-color);
+}
+
+.form input, .form textarea {
+  background: rgba(255, 255, 255, 0.247);
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.7px);
+  -webkit-backdrop-filter: blur(2.7px);
+  outline: none;
+  color: var(--white-color);
+}
+
+.form input:focus, .form textarea:focus {
+  background: rgba(255, 255, 255, 0.247);
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.7px);
+  outline: none;
+  color: var(--white-color);
+}
+
+.form input::placeholder, .form textarea::placeholder {
+  color: #cacaca;
+}
