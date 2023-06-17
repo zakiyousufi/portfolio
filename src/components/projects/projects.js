@@ -21,7 +21,7 @@ function Projects() {
 
   return (
     <CardContext.Provider value={contextValue}>
-      <div className="home-container d-flex flex-column flex-md-row">
+      <div className="home-container d-flex flex-column flex-md-row" id="projects">
         <div className="d-flex justify-content-center  flex-column w-50 align-items-center">
           <img src={ProjectsSVG} alt="Home" className="home-svg img-fluid w-50" />
         </div>

@@ -7,7 +7,7 @@ import ContactSVG from '../../images/svgs/pages/contact.svg';
 
 function Contact() {
   return (
-    <div className="home-container d-flex flex-column flex-md-row">
+    <div className="home-container d-flex flex-column flex-md-row" id="contact">
       <div className="d-flex flex-column justify-content-center w-75 align-items-center content">
         <h1 className="name title">Contact</h1>
         <p className="about">

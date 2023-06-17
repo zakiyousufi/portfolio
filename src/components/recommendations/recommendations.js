@@ -5,7 +5,7 @@ import recommendations from './data';
 
 function Recommendations() {
   return (
-    <div className="home-container d-flex flex-column flex-md-row">
+    <div className="home-container d-flex flex-column flex-md-row" id="recommendations">
       <div className="d-flex flex-column justify-content-center w-75 content">
         <h2 className="name mb-5 title text-center">
           Recommendations
