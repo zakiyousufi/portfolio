@@ -10,6 +10,7 @@ const CardContext = createContext(null);
 function Projects() {
   const [card, setCard] = useState({ isOpen: false, project: null });
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const toggleCard = (project) => {
     setCard((prevState) => ({
       isOpen: !prevState.isOpen,
