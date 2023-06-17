@@ -59,8 +59,17 @@
   color: var(--main-dark-color);
 }
 
+#light .form input::placeholder, #light .form textarea::placeholder {
+  color: #363636;
+}
+
+#recommendations {
+  height: auto !important;
+  padding-bottom: 10% !important;
+}
+
 #projects {
-  margin-top: 50%;
+  padding-top: 10% !important;
 }
 
 @media (max-width: 768px) {
@@ -98,6 +107,7 @@
     padding: 40% 2% !important;
     display: flex;
     align-items: center;
+    height: auto;
   }
 
   .content {
